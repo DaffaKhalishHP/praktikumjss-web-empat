@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="English">
+    <head>
+        <title>PBD Pizza Bang Derry</title>
+    </head>
+    <body>
+        <h1>Pizza Bang Derry</h1>
+        <br>
+        <br>
+        <select onchange="rotategambar();" id="listgambar">		
+            <option value="https://www.glutenfreepalate.com/wp-content/uploads/2018/08/Gluten-Free-Pizza-3.2.jpg.webp">Pilih Pizza Disini</option>	
+                    <option value="https://www.peoplemagazine.co.za/app/uploads/2017/09/cheese-pizza.jpg">Cheesy Look</option>			
+                        <option value="https://www.cooksifu.com/wp-content/uploads/2019/03/Pepperoni-pizza.jpg">Pepperoni</option>		
+                                <option value="https://images.eatsmarter.com/sites/default/files/styles/576x432/public/tuna-pizza-519466.jpg">Tuna Delight</option>
+                                            <option value="https://apleasantlittlekitchen.com/wp-content/uploads/2020/09/wild-mushroom-white-pizza-1-1-of-1.jpg">Mushroom Stack</option> 		
+                                                <option value="https://www.ketoresource.org/wp-content/uploads/2017/12/Mozzarella-Crust-Pizza-e1517247193323.jpeg">Mozarella Horror</option>		
+                                                <option value="https://www.fish-tales.com/wp-content/uploads/2019/01/Foodbeeld-tuna-pizza-top-down-website-1-e1583999888939.jpg">Tuna Special</option>		
+                                                    </select>	</center>		<br/>	
+                                                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.OrDLTW7NmyMfpyp3xtZGZAHaGK%26pid%3DApi&f=1" style="width: 100%" id="gambar"> 
+                                                </body>
+                                                
+    </body>
+        <script type="text/javascript">	function rotategambar() {		
+         let gambar = document.getElementById("listgambar").value;		
+            document.getElementById("gambar").src = gambar;		alert("Anda Memesan " + gambar);	}
+         </script>
+</html>
